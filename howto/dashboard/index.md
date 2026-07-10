@@ -55,6 +55,12 @@ The generated link is valid for one hour.
 
 To access the dashboard, go to `https://<your-machine-address>/`. The dashboard uses self-signed certificates. You might see a warning from your browser and have to accept the certificates manually.
 
+### Stream Controls Bar Update
+
+In the latest update, the Stream Controls Bar has been simplified by removing the **Session Share** and **Connect ADB** buttons. Users will no longer see these buttons in the streaming interface. The **Statistics** button remains available for toggling the statistics panel during streaming sessions.
+
+This change streamlines the interface and focuses on essential controls for a better user experience.
+
 ## Related topics
 
 - {ref}`exp-aar`

@@ -16,7 +16,7 @@ The dashboard comes pre-installed when you deploy the full version of Anbox Clou
 The dashboard allows multiple views and management of various objects such as applications, instances and nodes to some extent. The operations available from the dashboard may be limited as compared to the CLI, however if you are new to the CLI, the dashboard can be a friendlier start to Anbox Cloud.
 
 - Applications page - Allows creation, streaming and management of applications.
-- Instances page - Allows a detailed view of instances and the applications or images that they are created from, along with other options including management, streaming, connecting via Android Debug Bridge (ADB) for the instances.
+- Instances page - Allows a detailed view of instances and the applications or images that they are created from, along with other options including management and streaming. Note that the ability to connect via Android Debug Bridge (ADB) for instances has been removed from the Stream Controls Bar.
 - Nodes page - Allows a list view of LXD nodes and their configuration details.
 
 Apart from these views, the dashboard also allows you to work with the {ref}`exp-aar` and the {ref}`exp-ams`.
