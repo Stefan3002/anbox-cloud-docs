@@ -23,7 +23,6 @@ The **Open developer tools** action opens a panel with various tools for develop
 
 The **Set up sharing** action creates a temporary link to share your stream with another person, allowing them to take over the session from you. Note that simultaneous access is not allowed: when someone joins the stream, the currently connected user is disconnected.
 
-
 ## Connect ADB
 
 ![Connect ADB](/images/stream-sidebar/connect-adb-icon.png)
@@ -130,7 +129,7 @@ The **Back** action simulates a back button press on a physical device.
 
 *Shortcut: `Ctrl + Shift + B`*
 
-The **Download bug report** action provides a way to {ref}`collect <sec-bug-report>`) information about a problem you encounter during a streaming session. When you initiate a bug report, the system collects relevant logs and session data that you can then send to developers to help them diagnose the issue.
+The **Download bug report** action provides a way to {ref}`collect <sec-bug-report>` information about a problem you encounter during a streaming session. When you initiate a bug report, the system collects relevant logs and session data that you can then send to developers to help them diagnose the issue.
 
 ## Release / Capture keyboard
 
@@ -155,3 +154,19 @@ The **Take a screenshot** action takes a screenshot of the Android device.
 *Shortcut: `Ctrl + Shift + O`*
 
 The **Start / Stop screen recording** action starts recording a video of the streaming session. Clicking the button a second time stops the recording and saves the video to your local device. This is useful for creating demos, tutorials, or for troubleshooting.
+
+## Share session
+
+![Share Session Button](/images/stream-sidebar/share-session-icon.png)
+
+*Shortcut: `Ctrl + Shift + L`*
+
+The **Share session** action allows you to share the current streaming session with another user. When activated, it generates a shareable link and temporarily releases the keyboard control to the other user. Once the session is closed, the keyboard control is recaptured.
+
+## Connect ADB (Advanced)
+
+![Connect ADB Advanced Button](/images/stream-sidebar/connect-adb-advanced-icon.png)
+
+*Shortcut: `Ctrl + Shift + A`*
+
+The **Connect ADB (Advanced)** action provides an enhanced interface for connecting to the Android Debug Bridge (ADB). It includes additional options for managing the connection and allows developers to interact with the Android instance more effectively.

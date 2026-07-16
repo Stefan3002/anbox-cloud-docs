@@ -42,3 +42,30 @@ To update the description, run:
 To revoke a share, run:
 
     anbox-stream-gateway share delete <share_id>
+
+## Sharing a session via the web dashboard
+
+In addition to using the command-line interface, you can now share a session directly from the web dashboard. The *Stream Controls Bar* in the session view includes a **Share Session** button. 
+
+To share a session:
+
+1. Navigate to the session view of the instance you want to share.
+2. Locate the **Share Session** button in the *Stream Controls Bar*.
+3. Click the **Share Session** button. This will open a dialog where you can configure the share settings, such as the description and expiry time.
+4. Confirm the share to generate a share link.
+
+The share link can then be provided to another user, allowing them to access the streaming session.
+
+To stop sharing a session, you can revoke the share link using the **Revoke Share** option in the same dialog.
+
+## Connecting ADB via the web dashboard
+
+The *Stream Controls Bar* also includes a **Connect ADB** button, which allows you to connect to the instance's ADB (Android Debug Bridge) interface directly from the web dashboard.
+
+To connect ADB:
+
+1. Navigate to the session view of the instance you want to connect to.
+2. Locate the **Connect ADB** button in the *Stream Controls Bar*.
+3. Click the **Connect ADB** button. This will establish an ADB connection to the instance.
+
+If the ADB side panel is already active, the button will indicate its active state. You can disconnect ADB by closing the side panel or clicking the button again.
